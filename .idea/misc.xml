@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../assignments/02-microservices-individual-tasks-nicoVasq/barber/pom.xml" />
       </list>
     </option>
   </component>

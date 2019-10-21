@@ -4,28 +4,30 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public class Person {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+public class Equipment {
+
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private Integer quantity;
 
-
-    //region Constructor
-    public Person() {
+    //region Constuctor
+    public Equipment() {
     }
 
-    public Person(String name) {
+    public Equipment(String name, Integer quantity) {
         this.name = name;
-    }
-
-    public Long getId() {
-        return id;
+        this.quantity = quantity;
     }
     //endregion
 
 
     //region Getter Setter
+    public Long getId() {
+        return id;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -36,6 +38,14 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
     }
     //endregion
 }

@@ -1,6 +1,6 @@
 package at.htl.quarkus;
 
-import at.htl.entity.Barbershop;
+import at.htl.entity.BarberShop;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -15,8 +15,8 @@ public class BarbershopService {
     @Inject
     EntityManager entityManager;
 
-    public List<Barbershop> getAll(){
-        TypedQuery<Barbershop> query = entityManager.createNamedQuery("barbershop.findAll", Barbershop.class);
+    public List<BarberShop> getAll(){
+        TypedQuery<BarberShop> query = entityManager.createNamedQuery("BarberShop.findAll", BarberShop.class);
         return query.getResultList();
     }
 }
