@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../assignments/02-microservices-individual-tasks-nicoVasq/barber/barber.iml" filepath="$PROJECT_DIR$/../assignments/02-microservices-individual-tasks-nicoVasq/barber/barber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../assignments/02-microservices-individual-tasks-nicoVasq/Barberst/barberst.iml" filepath="$PROJECT_DIR$/../assignments/02-microservices-individual-tasks-nicoVasq/Barberst/barberst.iml" />
       <module fileurl="file://$PROJECT_DIR$/getting-started.iml" filepath="$PROJECT_DIR$/getting-started.iml" />
     </modules>
   </component>

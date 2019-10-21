@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="barberst" />
         <module name="barber" />
         <module name="getting-started" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="barber" target="1.8" />
+      <module name="barberst" target="1.8" />
       <module name="getting-started" target="1.8" />
     </bytecodeTargetLevel>
   </component>
